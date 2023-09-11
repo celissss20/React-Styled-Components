@@ -6,8 +6,8 @@ import List from "../List";
 
 
 const StyledContainer = styled.div`
-  background-color: #f1f1f1;
-  min-height: 90vh;
+  background-color: ${({theme}) => theme.body};
+  min-height: 100vh;
   padding: 0px 15vw;
 `
 
